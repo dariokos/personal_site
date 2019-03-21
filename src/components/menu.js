@@ -4,7 +4,7 @@ import menuStyles from "./menu.module.css"
 function Menu() {
   return (
     <div className={menuStyles.header}>
-        <a className={menuStyles.logo} href="http://minimaldev.com">Dario Kos</a>
+        <a className={menuStyles.logo} href="http://minimaldev.com">Site Title</a>
         
         <input id={menuStyles.nav} type="checkbox" />
         <label htmlFor={menuStyles.nav}></label>
